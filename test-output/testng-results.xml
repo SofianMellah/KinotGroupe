@@ -2,86 +2,66 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-12T16:25:31 CEST" name="Default suite" finished-at="2023-07-12T16:25:34 CEST" duration-ms="2714">
+  <suite started-at="2023-07-17T19:48:40 CEST" name="Default suite" finished-at="2023-07-17T19:48:49 CEST" duration-ms="8867">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runners.CucumberRunner@2d901eb0]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2023-07-12T16:25:31 CEST" name="Default test" finished-at="2023-07-12T16:25:34 CEST" duration-ms="2714">
+    <test started-at="2023-07-17T19:48:40 CEST" name="Default test" finished-at="2023-07-17T19:48:49 CEST" duration-ms="8867">
       <class name="Runners.CucumberRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runners.CucumberRunner@2d901eb0]" started-at="2023-07-12T16:25:31 CEST" name="setUpClass" finished-at="2023-07-12T16:25:32 CEST" duration-ms="139" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runners.CucumberRunner@2d901eb0]" started-at="2023-07-17T19:48:40 CEST" name="setUpClass" finished-at="2023-07-17T19:48:40 CEST" duration-ms="142" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@26586b74]]>
+                <![CDATA[org.testng.TestRunner@58f437b0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runners.CucumberRunner@2d901eb0]" started-at="2023-07-12T16:25:32 CEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-12T16:25:34 CEST" duration-ms="2543" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runners.CucumberRunner@2d901eb0]" started-at="2023-07-17T19:48:40 CEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-07-17T19:48:49 CEST" duration-ms="8671" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Je me connecte au site Kinot"]]>
+                <![CDATA["Je me connecte au site Kinot et que je modifie mon profil"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["SeConnecter"]]>
+                <![CDATA["SeConnecterModifierProfil"]]>
               </value>
             </param>
           </params>
           <exception class="io.cucumber.testng.UndefinedStepException">
             <message>
-              <![CDATA[The step 'Je me connecte' and 3 other step(s) are undefined.
+              <![CDATA[The step 'Je modifie mon téléphone' and 1 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
 
-@Given("Je me connecte")
-public void je_me_connecte() {
+@When("Je modifie mon téléphone")
+public void je_modifie_mon_téléphone() {
     // Write code here that turns the phrase above into concrete actions
     throw new io.cucumber.java.PendingException();
 }
-@When("Quand je renseigne un email valide et un mot de passe valide")
-public void quand_je_renseigne_un_email_valide_et_un_mot_de_passe_valide() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("Que je clique sur sign in")
-public void que_je_clique_sur_sign_in() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("Je suis connecté")
-public void je_suis_connecté() {
+@Then("J'ai modifie mon profil")
+public void j_ai_modifie_mon_profil() {
     // Write code here that turns the phrase above into concrete actions
     throw new io.cucumber.java.PendingException();
 }
 ]]>
             </message>
             <full-stacktrace>
-              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'Je me connecte' and 3 other step(s) are undefined.
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'Je modifie mon téléphone' and 1 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
 
-@Given("Je me connecte")
-public void je_me_connecte() {
+@When("Je modifie mon téléphone")
+public void je_modifie_mon_téléphone() {
     // Write code here that turns the phrase above into concrete actions
     throw new io.cucumber.java.PendingException();
 }
-@When("Quand je renseigne un email valide et un mot de passe valide")
-public void quand_je_renseigne_un_email_valide_et_un_mot_de_passe_valide() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("Que je clique sur sign in")
-public void que_je_clique_sur_sign_in() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("Je suis connecté")
-public void je_suis_connecté() {
+@Then("J'ai modifie mon profil")
+public void j_ai_modifie_mon_profil() {
     // Write code here that turns the phrase above into concrete actions
     throw new io.cucumber.java.PendingException();
 }
@@ -128,7 +108,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runners.CucumberRunner@2d901eb0]" started-at="2023-07-12T16:25:34 CEST" name="tearDownClass" finished-at="2023-07-12T16:25:34 CEST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runners.CucumberRunner@2d901eb0]" started-at="2023-07-17T19:48:49 CEST" name="tearDownClass" finished-at="2023-07-17T19:48:49 CEST" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

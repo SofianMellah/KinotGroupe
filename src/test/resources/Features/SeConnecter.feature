@@ -1,4 +1,3 @@
-
 @SeConnecter
 Feature: SeConnecter
 

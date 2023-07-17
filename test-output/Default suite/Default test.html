@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Jul 12 16:25:31 CEST 2023</td>
+<td>Started on:</td><td>Mon Jul 17 19:48:40 CEST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>2 seconds (2714 ms)</td>
+<tr><td>Total time:</td><td>8 seconds (8867 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,27 +76,17 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: Runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Je me connecte au site Kinot", "SeConnecter"</td>
-<td><div><pre>io.cucumber.testng.UndefinedStepException: The step &apos;Je me connecte&apos; and 3 other step(s) are undefined.
+<td title='Runners.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: Runners.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Je me connecte au site Kinot et que je modifie mon profil", "SeConnecterModifierProfil"</td>
+<td><div><pre>io.cucumber.testng.UndefinedStepException: The step &apos;Je modifie mon téléphone&apos; and 1 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
 
-@Given(&quot;Je me connecte&quot;)
-public void je_me_connecte() {
+@When(&quot;Je modifie mon téléphone&quot;)
+public void je_modifie_mon_téléphone() {
     // Write code here that turns the phrase above into concrete actions
     throw new io.cucumber.java.PendingException();
 }
-@When(&quot;Quand je renseigne un email valide et un mot de passe valide&quot;)
-public void quand_je_renseigne_un_email_valide_et_un_mot_de_passe_valide() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When(&quot;Que je clique sur sign in&quot;)
-public void que_je_clique_sur_sign_in() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then(&quot;Je suis connecté&quot;)
-public void je_suis_connecté() {
+@Then(&quot;J&apos;ai modifie mon profil&quot;)
+public void j_ai_modifie_mon_profil() {
     // Write code here that turns the phrase above into concrete actions
     throw new io.cucumber.java.PendingException();
 }
@@ -137,27 +127,17 @@ public void je_suis_connecté() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace205446988", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace205446988'><pre>io.cucumber.testng.UndefinedStepException: The step &apos;Je me connecte&apos; and 3 other step(s) are undefined.
+</pre></div><a href='#' onClick='toggleBox("stack-trace1171178358", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1171178358'><pre>io.cucumber.testng.UndefinedStepException: The step &apos;Je modifie mon téléphone&apos; and 1 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
 
-@Given(&quot;Je me connecte&quot;)
-public void je_me_connecte() {
+@When(&quot;Je modifie mon téléphone&quot;)
+public void je_modifie_mon_téléphone() {
     // Write code here that turns the phrase above into concrete actions
     throw new io.cucumber.java.PendingException();
 }
-@When(&quot;Quand je renseigne un email valide et un mot de passe valide&quot;)
-public void quand_je_renseigne_un_email_valide_et_un_mot_de_passe_valide() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When(&quot;Que je clique sur sign in&quot;)
-public void que_je_clique_sur_sign_in() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then(&quot;Je suis connecté&quot;)
-public void je_suis_connecté() {
+@Then(&quot;J&apos;ai modifie mon profil&quot;)
+public void j_ai_modifie_mon_profil() {
     // Write code here that turns the phrase above into concrete actions
     throw new io.cucumber.java.PendingException();
 }
@@ -199,7 +179,7 @@ public void je_suis_connecté() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>2</td>
+<td>8</td>
 <td>Runners.CucumberRunner@2d901eb0</td></tr>
 </table><p>
 </body>

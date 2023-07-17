@@ -3,7 +3,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 
-@CucumberOptions(tags = "@SeConnecter", 
+@CucumberOptions(tags = "@tagConnexionModifierProfil", 
 
                 features = {"src/test/resources/Features"}, 
 

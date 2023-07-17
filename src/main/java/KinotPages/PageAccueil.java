@@ -16,4 +16,9 @@ public class PageAccueil {
 	
 	@FindBy (xpath = "/html/body/div/div/div[1]/div/a[3]/div")
 	private WebElement accederPageProfil;
+	
+	
+	public void accederPageProfil() {
+		accederPageProfil.click();
+	}
 }
